@@ -1,6 +1,10 @@
 # cpabe
-Must install cpabe libray from  http://hms.isi.jhu.edu/acsc/cpabe/#papers \n
+Must install cpabe libray from  http://hms.isi.jhu.edu/acsc/cpabe/#papers
+
+
 Follow these steps http://hms.isi.jhu.edu/acsc/cpabe/cpabe-setup.html for setup in order to generate public key and master key files.
+
+
 Then copy my keygen.c, enc.c, and dec.c files into your cpabe folder and run the makefile.
 Sample comand to run keygen, enc, and dec, must be run from cpabe folder.
 Keygen: ./cpabe-keygen -o priv10key pub_key master_key a1 a2 a3 a4 a5 a6 a7 a8 a9 a10
