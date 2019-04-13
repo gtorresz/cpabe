@@ -13,4 +13,4 @@ Enc: ./cpabe-enc -k pub_key test.txt 'a1 and a2 and a3 and a4 and a5 and a6 and 
 
 Dec: ./cpabe-dec -k pub_key priv10key test.txt10.cpabe
 
-Keygen will automatically create unique csv files based on attribute size, enc & dec require user to go into code and change the variable size to reflect number of attriubtes and generate unique file name, makefile must be run after each change.  
+Keygen will automatically create unique csv files based on attribute size, enc & dec require user to go into code and change the variable 'size' to reflect number of attriubtes and generate unique file name, makefile must be run after each change.  
